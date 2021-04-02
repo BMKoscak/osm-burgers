@@ -13,8 +13,11 @@
 #### - New Items added and all the code and images are also attached with the resource. 
 
 
-### Item Images are included in the folder `inv-images` | Should be copied into Inventory Images.
-### Add this into your SHARED.LUA (in the CORE FOLDER)
+## Instructions for Installation / Setup 
+
+#### Item Images are included in the folder `inv-images` | Should be copied into Inventory Images.
+
+#### Add this into your SHARED.LUA (in the CORE FOLDER)
 
 ```
 ["burger"] 		 			 	 = {["name"] = "burger",       		    		["label"] = "Burger",	 					["weight"] = 300, 		["type"] = "item", 		["image"] = "burger.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Some big burger brother"},
