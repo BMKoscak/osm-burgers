@@ -1,23 +1,31 @@
 
-# OSM x QBUS | BURGERS | Custom Job for McDonalds MLO
+# OSM x QBUS | BURGERS JOB | Custom Job for McDonalds MLO
 
-#### Specially designed for [THIS MLO](https://www.youtube.com/watch?v=qHw63IeCcJs). 
-#### Inspired / Reworked from Taco Job for QBUS, still much different. 
+#### A Taco-Inspired McDonalds Job for an MLO (by UT MODZ). It is a WIP Job for servers who want to boost their RPs by increasing number of Legal Jobs in the City. With lots of config vars, it can be configured as required. It is by default a job that would require time to be spent on, and would yeild good earnings. 
 
-## Features 
+MLO is available on My Discord Server as well as R5M Forum (It cannot be posted on Github)
+### [My Discord Server](https://discord.gg/bfPKqNhQPQ)
 
+## Script Features 
+
+#### - Specially designed for [THIS MLO](https://www.youtube.com/watch?v=qHw63IeCcJs). 
 #### - Added *Burger Bun Making* as an extra part of the JOB.
 #### - Added *DRIVEBY* where other citizens can also buy Burgers (if someone makes burgers)
 #### - All other features of TACO JOB intact, optimized slightly, and removed useless stuff. 
 #### - Locations adapted well to the Beautiful MLO by [UT MODZ](https://www.youtube.com/channel/UCLyHsvgL80IIatiWyhG-TjA)
 #### - New Items added and all the code and images are also attached with the resource. 
 
+#### Blips are there on the Map for `McDonalds Outlet` and `McDonalds Storage`
 
 ## Instructions for Installation / Setup 
 
+#### Make sure you Have the MLO before hand and started. 
+
 #### Item Images are included in the folder `inv-images` | Should be copied into Inventory Images.
 
-#### Add this into your SHARED.LUA (in the CORE FOLDER)
+#### Add this into your `SHARED.LUA` in the `Shared Items` (in the CORE FOLDER)
+
+#### Start the Resource and Enjoy. 
 
 ```
 ["burger"] 		 			 	 = {["name"] = "burger",       		    		["label"] = "Burger",	 					["weight"] = 300, 		["type"] = "item", 		["image"] = "burger.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Some big burger brother"},
