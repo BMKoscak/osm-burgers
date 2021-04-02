@@ -26,8 +26,6 @@
 
 #### Add this into your `SHARED.LUA` in the `Shared Items` (in the CORE FOLDER)
 
-#### Start the Resource and Enjoy. 
-
 ```
 ["burger"] 		 			 	 = {["name"] = "burger",       		    		["label"] = "Burger",	 					["weight"] = 300, 		["type"] = "item", 		["image"] = "burger.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Some big burger brother"},
 ["bread"] 		 			 	 = {["name"] = "bread",       		    		["label"] = "Raw Bread",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "bread.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Some big burger brother"},
@@ -37,3 +35,4 @@
 ["burger-box"] 	 			    = {["name"] = "burger-box",       			        ["label"] = "Burger Box",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "taco-box.png",     ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,                     ["combinable"] = nil,   ["description"] = "Some big burger brother"},
 ["burger-bag"] 	 			 	  = {["name"] = "burger-bag",       			    ["label"] = "Burger Bag",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "taco-bag.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,                     ["combinable"] = nil,   ["description"] = "Some big burger brother"},
 ```
+#### Start the Resource and Enjoy. 
