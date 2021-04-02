@@ -87,6 +87,7 @@ Citizen.CreateThread(function()
 						GiveTacoToShop()
 					elseif Config.JobData['locations'][k]['name'] == 'Driveby' then
 						Driveby()
+					end
 					else
 						QBCore.Functions.Notify("You're still doing something.", "error")
 					end
@@ -337,7 +338,7 @@ function RegisterAnim(time)
 	end
 
 RegisterNetEvent('drivebycut')
-AddEventHandler('drivebycut', function(function)
+AddEventHandler('drivebycut', function()
 
 	local purchase = math.random(70, 110)
 
