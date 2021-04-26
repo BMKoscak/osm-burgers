@@ -16,7 +16,7 @@ Config.Driveby = math.random(250, 350)
 
 Config.JobBusy = false
 
-Config.CustomJobName == "mcdonalds"
+Config.CustomJobName = "mcdonalds"
 
 Config.JobData = {
  ['burgers'] = 0,
