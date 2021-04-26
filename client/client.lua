@@ -29,6 +29,7 @@ AddEventHandler("QBCore:Client:OnPlayerLoaded", function()
     QBCore.Functions.TriggerCallback('osm-mcd:server:GetConfig', function(config)
         Config = config
     end)
+	PlayerJob = QBCore.Functions.GetPlayerData().job
 end)
 
 -- Code
@@ -36,6 +37,7 @@ end)
 Citizen.CreateThread(function()
 	while true do 
 		Citizen.Wait(1)
+		if PlayerJob == Config.CustomJobName then 
 		 for k,v in pairs(Config.JobData['locations']) do
 		  local Positie = GetEntityCoords(GetPlayerPed(-1), false)
 		  local Difcords = GetDistanceBetweenCoords(Positie.x, Positie.y, Positie.z, Config.JobData['locations'][k].x, Config.JobData['locations'][k].y, Config.JobData['locations'][k].z, true)
@@ -94,6 +96,7 @@ Citizen.CreateThread(function()
 				end
 			end
 		end
+		end	
 	end
 end)
 
