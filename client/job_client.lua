@@ -55,6 +55,7 @@ local rnd = 0
 Citizen.CreateThread(function()
 while true do
 	Citizen.Wait(0)
+	if PlayerJob = Config.CustomJobName then 
 		for k,v in pairs(Config.JobStart) do
 			local pos = GetEntityCoords(GetPlayerPed(-1), false)
             local Difcords = GetDistanceBetweenCoords(pos.x, pos.y, pos.z, v.x, v.y, v.z, false)
@@ -135,6 +136,7 @@ AddEventHandler('osm-mcd:start:black:job', function()
 		else
 			Citizen.Wait(2000)
 		end
+	end
 	end
 end)
 
