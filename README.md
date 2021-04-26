@@ -22,6 +22,8 @@
 
 #### Make sure you Have the MLO before hand and started. 
 
+### ADD A NEW JOB IN UR SHARED.LUA and PUT ITS NAME IN `config.lua` in the field (Config.CustomJobName)
+
 #### Item Images are included in the folder `inv-images` | Should be copied into Inventory Images.
 
 #### Add this into your `SHARED.LUA` in the `Shared Items` (in the CORE FOLDER)
