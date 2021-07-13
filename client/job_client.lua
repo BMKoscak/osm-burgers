@@ -83,6 +83,7 @@ while true do
 			end
 		end
 	end
+end
 end)
 
 Citizen.CreateThread(function()
